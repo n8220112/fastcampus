@@ -200,19 +200,19 @@ section:not(.front-slider, .early-bird) {
   color: #FFFFFF;
 }
 .member-login-overlay .member-login .easy-login .btn-easy-login.kakao {
-  background-image: url("/images/icon-kakao.svg");
+  background-image: url("/fastcampus/images/icon-kakao.svg");
   background-color: #FFD912;
 }
 .member-login-overlay .member-login .easy-login .btn-easy-login.facebook {
-  background-image: url("/images/icon-facebook.svg");
+  background-image: url("/fastcampus/images/icon-facebook.svg");
   background-color: #006BE5;
 }
 .member-login-overlay .member-login .easy-login .btn-easy-login.apple {
-  background-image: url("/images/icon-apple.svg");
+  background-image: url("/fastcampus/images/icon-apple.svg");
   background-color: #333;
 }
 .member-login-overlay .member-login .easy-login .btn-easy-login.email {
-  background-image: url("/images/icon-email.svg");
+  background-image: url("/fastcampus/images/icon-email.svg");
   background-color: #fff;
   border: 1px solid #DDDDDD;
   color: #333333;
