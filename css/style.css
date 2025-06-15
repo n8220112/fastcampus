@@ -1362,6 +1362,7 @@ footer .footer-inner .copyright-wrap .sns a:hover .bi {
 .class-detail .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce .class-detail-wrap .sub_wrap .class-introduce-feature li {
   margin: 10px 0;
   font-weight: 500;
+  list-style: none;
 }
 .class-detail .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce .class-detail-wrap .sub_wrap .class-introduce-feature li em {
   color: #f8930f;
