@@ -1,0 +1,174 @@
+/* import local scss file */
+@import 'variables.scss', 'reset.scss', 'fonts.scss';
+
+/* responsive-tablet */
+@media (min-width:768px) and (max-width:1024px){
+/* ########## Common CSS ########## */
+section:not(.front-slider){padding: 35px 0;}
+[class*=inner]{width: 90%; margin: auto;}
+/* ########## Header ########## */
+header{
+  .header-inner{padding: 0 10px;
+    .search{width: 300px;}}
+  .mega-navi{
+    .mega-navi-inner{width: 100%; padding: 10px 20px;
+      .mega-navi-item{font-size: 13px;
+        b{font-size: 0.9rem;}}}}
+}
+/* ########## front-slider ########## */
+.front-slider {
+  .front-slider-items {
+    .front-slider-item {
+      .front-slider-item-wrap {
+        width: 100%;
+        .desc {
+          padding: 20px;
+          width: 50%;
+          b{font-size: 16px;}
+          h2{font-size: 24px}
+        }
+        .pic {img{width: 100%;}}
+      }
+    }
+  }
+}
+/* ########## category-shortcut ########## */
+.category-shortcut{
+  .category-shortcut-inner{
+    .category-shortcut-items{
+      flex-wrap: wrap;
+      .category-shortcut-item{
+        flex-basis: 15%;
+      }}}
+    }
+/* ########## swiper mySwiper02 ########## */
+.focus-class{
+  .focus-class-inner{
+    .focus-class-content{
+      .mySwiper02{
+        .focus-class-items{
+          flex-wrap: nowrap;
+        }
+        .swiper-button-next{transform: translateX(5px);}
+        .swiper-button-prev{transform: translateX(-5px);}
+      }
+    }
+  }
+}
+/* ########## best-class ########## */
+.best-class{
+  .best-class-inner{
+    .best-class-content{
+      .best-class-wrap{
+        flex-direction: column-reverse;
+        .best-class-banner{
+          display: none;
+          img{}
+        }
+        .best-class-banner-tablet{
+          display: block; border-radius: 10px; overflow: hidden;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/* ########## early-bird ########## */
+.early-bird{
+  .early-bird-inner{
+    .early-bird-content{
+      .early-bird-banner{
+        height: auto;
+        .banner-about{
+          width: 90%;
+          h2{font-size: 28px;}
+        }
+        .banner-thumb{
+          img{right: 5%;}
+        }
+      }
+    }
+  }
+}
+/* ########## blog ########## */
+.blog{
+  .blog-inner{
+    .blog-content{
+      .blog-items{
+        .blog-item{
+          .thumb{
+            height: 160px;
+          }
+        }
+      }
+    }
+  }
+}
+/* ########## slogan ########## */
+.slogan{padding: 25px !important;}
+/* ########## tip-tech ########## */
+.tip-tech{
+  .tip-tech-inner{
+    .tip-tech-content{
+      .tip-tech-wrap{
+        .tip-tech-items{
+          .tip-tech-item{
+            .thumb{display: none;}
+          }
+        }
+      }
+    }
+  }
+}
+/* ########## footer-include ########## */
+footer{padding: 30px 20px;
+  .footer-inner{
+    .lnb-wrap{gap: 40px;
+      .footer-slogan{h3{font-size: 1.2rem;}}
+      .lnb{.link-item{
+          .link-item-title{font-size: 1rem;}
+          .link-item-content{display: none;}}}}
+    .copyright-wrap{address{width: 65%;}
+      .sns{transform: translateY(-40px);}}}
+}
+/* 서브페이지 */
+/* ########## category-main.html ########## */
+.focus-class-items{
+  flex-wrap: wrap;
+  .focus-class-item{width: calc(100% / 2 - 20px);}}
+
+/* ########## class-detail.html ########## */
+.class-detail{
+  .class-detail-image{padding: 0 !important; background: url(../images/ct-class-detail-main-01.png) no-repeat center center; background-size: cover;}
+   .class-detail-image-inner{
+     height: 300px; padding: 30px 0;
+     .heading{
+       h2{font-size: 24px;}
+       p{font-size: 16px;}
+     }
+     .cover-image{
+       img{height: 250px;}
+     }
+   }
+   .class-detail-full{
+    .class-detail-full-inner{
+      .class-detail-full-content{
+        flex-direction: column-reverse;
+        .class-detail-info{
+          .btn-mentor-profile{padding: 3px 10px;}
+        }
+        .class-detail-sidebar{position: static; margin-bottom: 20px;}
+      }
+    }
+   }
+ }
+
+ /* ############ Take Course & Cart : take-course.html ############ */
+   .take-course {
+    .take-course-inner {
+      flex-direction: column;
+    }
+  }
+}
