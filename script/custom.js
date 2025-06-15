@@ -6,7 +6,7 @@ fetch('경로')
   선택자.innerHTML = data
 })
  */
-fetch("../include/header.html")
+fetch("/fastcampus/include/header.html")
   .then((response) => response.text())
   .then((data) => {
     document.querySelector(".header-include").innerHTML = data;
@@ -79,7 +79,7 @@ fetch("../include/header.html")
     });
   });
 
-fetch("../include/footer.html")
+fetch("/fastcampus/include/footer.html")
   .then((response) => response.text())
   .then((data) => {
     document.querySelector(".footer-include").innerHTML = data;
